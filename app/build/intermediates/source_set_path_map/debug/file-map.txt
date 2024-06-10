@@ -1,0 +1,9 @@
+com.tencent.yolov8ncnn.app-cardview-1.0.0-0 E:\android skripsi\New folder\ncnn-android-yolov8-main\ncnn-android-yolov8\caches\transforms-3\185c0545a0cc1fa0bccc453d30487460\transformed\cardview-1.0.0\res
+com.tencent.yolov8ncnn.app-pngs-1 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\generated\res\pngs\debug
+com.tencent.yolov8ncnn.app-resValues-2 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\generated\res\resValues\debug
+com.tencent.yolov8ncnn.app-rs-3 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\generated\res\rs\debug
+com.tencent.yolov8ncnn.app-mergeDebugResources-4 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.tencent.yolov8ncnn.app-mergeDebugResources-5 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.tencent.yolov8ncnn.app-merged_res-6 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\merged_res\debug
+com.tencent.yolov8ncnn.app-debug-7 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\debug\res
+com.tencent.yolov8ncnn.app-main-8 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\res

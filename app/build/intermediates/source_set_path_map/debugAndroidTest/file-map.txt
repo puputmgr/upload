@@ -1,0 +1,7 @@
+com.tencent.yolov8ncnn.test.app-androidTest-0 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\generated\res\resValues\androidTest\debug
+com.tencent.yolov8ncnn.test.app-androidTest-1 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\generated\res\rs\androidTest\debug
+com.tencent.yolov8ncnn.test.app-mergeDebugAndroidTestResources-2 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.tencent.yolov8ncnn.test.app-mergeDebugAndroidTestResources-3 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.tencent.yolov8ncnn.test.app-merged_res-4 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\merged_res\debugAndroidTest
+com.tencent.yolov8ncnn.test.app-androidTest-5 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\androidTest\res
+com.tencent.yolov8ncnn.test.app-androidTestDebug-6 E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\androidTestDebug\res

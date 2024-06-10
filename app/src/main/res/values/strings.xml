@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bisa Isyarat</string>
+    <string name="welcome_txt">Selamat Datang\nAplikasi Bahasa Isyarat</string>
+    <string name="buka_kamera">Buka Kamera</string>
+    <string name="title_detector">Deteksi Huruf Isyarat</string>
+    <string name="welcome_home">Selamat Datang</string>
+    <string name="about">tentang</string>
+    <string name="angka">ANGKA</string>
+    <string name="calling_name">SEBUTAN KERABAT</string>
+    <string name="kosakata">kosakata</string>
+    <string name="camera_detection">deteksi kamera</string>
+    <string name="abjad">abjad bisindo</string>
+    <string name="image_description_a">Huruf A</string>
+    <string name="image_description_b">Huruf B</string>
+    <string name="image_description_c">Huruf C</string>
+    <string name="image_description_d">Huruf D</string>
+    <string name="image_description_e">Huruf E</string>
+    <string name="image_description_f">Huruf F</string>
+    <string name="image_description_g">Huruf G</string>
+    <string name="image_description_h">Huruf H</string>
+    <string name="image_description_i">Huruf I</string>
+    <string name="image_description_j">Huruf J</string>
+    <string name="image_description_k">Huruf K</string>
+    <string name="image_description_l">Huruf L</string>
+    <string name="image_description_m">Huruf M</string>
+    <string name="image_description_n">Huruf N</string>
+    <string name="image_description_o">Huruf O</string>
+    <string name="image_description_p">Huruf P</string>
+    <string name="image_description_q">Huruf Q</string>
+    <string name="image_description_r">Huruf R</string>
+    <string name="image_description_s">Huruf S</string>
+    <string name="image_description_t">Huruf T</string>
+    <string name="image_description_u">Huruf U</string>
+    <string name="image_description_v">Huruf V</string>
+    <string name="image_description_w">Huruf W</string>
+    <string name="image_description_x">Huruf X</string>
+    <string name="image_description_y">Huruf Y</string>
+    <string name="image_description_z">Huruf Z</string>
+    <string name="image_description_adik">ADIK</string>
+    <string name="image_description_bapak">BAPAK</string>
+    <string name="image_description_ayah">AYAH</string>
+    <string name="image_description_nenek">NENEK</string>
+    <string name="image_description_ibu">IBU</string>
+    <string name="image_description_anak">ANAK</string>
+    <string name="my_letter_A">A</string>
+    <string name="my_letter_B">B</string>
+    <string name="my_letter_C">C</string>
+    <string name="my_letter_D">D</string>
+    <string name="my_letter_E">E</string>
+    <string name="my_letter_F">F</string>
+    <string name="my_letter_G">G</string> <!-- Diganti menjadi G -->
+    <string name="my_letter_H">H</string> <!-- Diganti menjadi H -->
+    <string name="my_letter_I">I</string> <!-- Diganti menjadi I -->
+    <string name="my_letter_J">J</string> <!-- Diganti menjadi J -->
+    <string name="my_letter_K">K</string> <!-- Diganti menjadi K -->
+    <string name="my_letter_L">L</string> <!-- Diganti menjadi L -->
+    <string name="my_letter_M">M</string> <!-- Diganti menjadi M -->
+    <string name="my_letter_N">N</string> <!-- Diganti menjadi N -->
+    <string name="my_letter_O">O</string> <!-- Diganti menjadi O -->
+    <string name="my_letter_P">P</string> <!-- Diganti menjadi P -->
+    <string name="my_letter_Q">Q</string> <!-- Diganti menjadi Q -->
+    <string name="my_letter_R">R</string> <!-- Diganti menjadi R -->
+    <string name="my_letter_S">S</string> <!-- Diganti menjadi S -->
+    <string name="my_letter_T">T</string> <!-- Diganti menjadi T -->
+    <string name="my_letter_U">U</string> <!-- Diganti menjadi U -->
+    <string name="my_letter_V">V</string> <!-- Diganti menjadi V -->
+    <string name="my_letter_W">W</string> <!-- Diganti menjadi W -->
+    <string name="my_letter_X">X</string> <!-- Diganti menjadi X -->
+    <string name="my_letter_Y">Y</string> <!-- Diganti menjadi Y -->
+    <string name="my_letter_Z">Z</string> <!-- Diganti menjadi Z -->
+    <string name="my_letter_adik">ADIK</string> <!-- Diganti menjadi Z -->
+    <string name="my_letter_anak">ANAK</string> <!-- Diganti menjadi Z -->
+    <string name="my_letter_ibu">IBU</string> <!-- Diganti menjadi Z -->
+    <string name="my_letter_ayah">AYAH</string> <!-- Diganti menjadi Z -->
+    <string name="my_letter_bapak">BAPAK</string> <!-- Diganti menjadi Z -->
+    <string name="my_letter_nenek">NENEK</string> <!-- Diganti menjadi Z -->
+    <string name="hallo_image">HALLO</string>
+    <string name="terimakasih_image">TERIMAKASIH</string>
+    <string name="sama_image">SAMA-SAMA</string>
+    <string name="tidak_image">TIDAK</string>
+    <string name="loveyou_image">I LOVE YOU</string>
+    <string name="iya_image">IYA</string>
+    <string name="tolong_image">tolong</string>
+    <string name="cinta_image">cinta</string>
+    <string name="tentang_image">tentang</string>
+    <string name="angka1_image">angka1</string>
+    <string name="lorem_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+    <string-array name="model_array">
+        <item>n</item>
+        <item>s</item>
+    </string-array>
+    <string-array name="cpugpu_array">
+        <item>CPU</item>
+        <item>GPU</item>
+    </string-array>
+</resources>

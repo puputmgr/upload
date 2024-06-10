@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF54353"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/iv_back_button"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:tint="#ffffff"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/iv_back_button"
+            android:text="@string/abjad"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- CardViews for A and B -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <!-- CardView A -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/a"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_a"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/a1" />
+
+                        <TextView
+                            android:id="@+id/textView_A"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_A"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- CardView B -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/b"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_b"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/b2" />
+
+                        <TextView
+                            android:id="@+id/textView_B"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_B"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- CardView C and D -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <!-- CardView C -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/c"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_c"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/c1" />
+
+                        <TextView
+                            android:id="@+id/textView_C"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_C"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- CardView D -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/d"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_d"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/d1" />
+
+                        <TextView
+                            android:id="@+id/textView_D"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_D"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- CardViews for E and F -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <!-- CardView E -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/e"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_e"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/e1" />
+
+                        <TextView
+                            android:id="@+id/textView_E"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_E"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- CardView F -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/f"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_f"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/f1" />
+
+                        <TextView
+                            android:id="@+id/textView_F"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_F"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <!-- CardViews for G and H -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <!-- CardView G -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/g"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_g"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/g1" />
+
+                        <TextView
+                            android:id="@+id/textView_G"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_G"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- CardView H -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/h"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_h"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/h1" />
+
+                        <TextView
+                            android:id="@+id/textView_H"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_H"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- CardViews for I and J -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <!-- CardView I -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/i"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_i"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/i1" />
+
+                        <TextView
+                            android:id="@+id/textView_I"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_I"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- CardView J -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/j"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_j"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/j1" />
+
+                        <TextView
+                            android:id="@+id/textView_J"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_J"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        <!-- CardViews for K and L -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <!-- CardView K -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/k"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/image_description_k"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/k1" />
+
+                    <TextView
+                        android:id="@+id/textView_K"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/my_letter_K"
+                        android:textAlignment="center"
+                        android:textColor="#151111" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView L -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/l"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/image_description_l"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/l1" />
+
+                    <TextView
+                        android:id="@+id/textView_L"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/my_letter_L"
+                        android:textAlignment="center"
+                        android:textColor="#151111" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <!-- CardViews for M and N -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+        <!-- CardView M -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/m"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/image_description_m"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/m1" />
+
+                <TextView
+                    android:id="@+id/textView_M"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/my_letter_M"
+                    android:textAlignment="center"
+                    android:textColor="#151111" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- CardView N -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/n"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_description_n"
+                android:scaleType="centerCrop"
+                android:src="@drawable/n1" />
+
+            <TextView
+                android:id="@+id/textView_N"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_letter_N"
+                android:textAlignment="center"
+                android:textColor="#151111" />
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        </LinearLayout>
+            <!-- CardViews for O and P -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <!-- CardView O -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/o"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_o"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/o1" />
+
+                        <TextView
+                            android:id="@+id/textView_O"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_O"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- CardView P -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/p"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_p"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/p1" />
+
+                        <TextView
+                            android:id="@+id/textView_P"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_P"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <!-- CardViews for Q and R -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <!-- CardView Q -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/q"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_q"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/q1" />
+
+                        <TextView
+                            android:id="@+id/textView_Q"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_Q"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- CardView R -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/r"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_r"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/r1" />
+
+                        <TextView
+                            android:id="@+id/textView_R"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_R"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- CardViews for S and T -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <!-- CardView S -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/s"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_s"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/s1" />
+
+                        <TextView
+                            android:id="@+id/textView_S"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_S"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- CardView T -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/t"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_t"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/t1" />
+
+                        <TextView
+                            android:id="@+id/textView_T"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_T"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <!-- CardViews for U and V -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <!-- CardView U -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/u"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_u"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/u1" />
+
+                        <TextView
+                            android:id="@+id/textView_U"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_U"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- CardView V -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/v"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_v"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/v1" />
+
+                        <TextView
+                            android:id="@+id/textView_V"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_V"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- CardViews for W and X -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <!-- CardView W -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/w"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_w"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/w1" />
+
+                        <TextView
+                            android:id="@+id/textView_W"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_W"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- CardView X -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/x"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_x"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/x1" />
+
+                        <TextView
+                            android:id="@+id/textView_X"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_X"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <!-- CardViews for Y and Z -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <!-- CardView Y -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/y"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_y"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/y1" />
+
+                        <TextView
+                            android:id="@+id/textView_Y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_Y"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- CardView Z -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/z"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="10dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/image_description_z"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/z1" />
+
+                        <TextView
+                            android:id="@+id/textView_Z"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_letter_Z"
+                            android:textAlignment="center"
+                            android:textColor="#151111" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
