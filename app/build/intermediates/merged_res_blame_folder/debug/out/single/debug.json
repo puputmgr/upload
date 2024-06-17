@@ -1,266 +1,270 @@
 [
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_e1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/e1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_n1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\n1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_girl.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/girl.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_abjad.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\abjad.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_main_splash_screen.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/main_splash_screen.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_girl.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\girl.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_p1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/p1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\layout_calling_name_activity.xml.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\layout\\calling_name_activity.xml"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_v1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/v1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_adik.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\adik.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_hallo.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/hallo.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_camera_menu.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\camera_menu.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_abjad.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/abjad.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_h1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\h1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_k1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/k1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_anak.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\anak.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_h1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/h1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_tolong.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\tolong.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_camera.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/camera.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\layout_splash_screen_activity.xml.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\layout\\splash_screen_activity.xml"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_s1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/s1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_angka1.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\angka1.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_anak.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/anak.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_y1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\y1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_back.xml.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/back.xml"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_t1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\t1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_bapak.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/bapak.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_e1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\e1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_g1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/g1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_q1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\q1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_n1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/n1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_i1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\i1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_t1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/t1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_back.xml.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\back.xml"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/layout_kosakata_activity.xml.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/layout/kosakata_activity.xml"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_hallo.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\hallo.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_f1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/f1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_z1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\z1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/layout_about_activity.xml.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/layout/about_activity.xml"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_s1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\s1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/layout_abjad_bisindo_activity.xml.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/layout/abjad_bisindo_activity.xml"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_l1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\l1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_m1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/m1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\layout_home_activity.xml.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\layout\\home_activity.xml"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_halo.gif.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/halo.gif"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_comunication.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\comunication.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/layout_more_info_activity.xml.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/layout/more_info_activity.xml"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_baseline_camera_enhance_24.xml.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\baseline_camera_enhance_24.xml"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_u1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/u1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_c1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\c1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/layout_home_activity.xml.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/layout/home_activity.xml"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_bapak.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\bapak.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_nenek.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/nenek.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_nenek.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\nenek.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_baseline_arrow_back_24.xml.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/baseline_arrow_back_24.xml"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\layout_detector_activity.xml.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\layout\\detector_activity.xml"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_l1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/l1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_k1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\k1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_lope.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/lope.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_tentang.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\tentang.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_i1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/i1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_baseline_arrow_back_24.xml.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\baseline_arrow_back_24.xml"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_lopekata1.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/lopekata1.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_u1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\u1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_angka1.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/angka1.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_d1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\d1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_z1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/z1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_camera.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\camera.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_a1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/a1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_lope.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\lope.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_iya.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/iya.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_r1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\r1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_baseline_camera_enhance_24.xml.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/baseline_camera_enhance_24.xml"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_b2.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\b2.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_ayah.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/ayah.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_sama.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\sama.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_samasama.gif.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/samasama.gif"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_j1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\j1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_kosakata.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/kosakata.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_kosakata.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\kosakata.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_b2.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/b2.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_ayah.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\ayah.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_more_info.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/more_info.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_samasama.gif.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\samasama.gif"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_o1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/o1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_a1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\a1.jpg"
+    },
+    {
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_halo.gif.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\halo.gif"
+    },
+    {
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_about.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\about.jpg"
+    },
+    {
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_x1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\x1.jpg"
     },
     {
         "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/layout_detector_activity.xml.flat",
         "source": "com.tencent.yolov8ncnn.app-main-8:/layout/detector_activity.xml"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_logo.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/logo.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\layout_about_activity.xml.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\layout\\about_activity.xml"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_d1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/d1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\layout_more_info_activity.xml.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\layout\\more_info_activity.xml"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/layout_calling_name_activity.xml.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/layout/calling_name_activity.xml"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_m1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\m1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_camera_menu.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/camera_menu.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\layout_abjad_bisindo_activity.xml.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\layout\\abjad_bisindo_activity.xml"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_w1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/w1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_main_splash_screen.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\main_splash_screen.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_x1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/x1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_p1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\p1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_q1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/q1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_w1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\w1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_about.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/about.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_f1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\f1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_j1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/j1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_more_info.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\more_info.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_cinta.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/cinta.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_logo.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\logo.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_c1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/c1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_tidak.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\tidak.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_tolong.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/tolong.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_ibu.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\ibu.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_tidak.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/tidak.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\layout_kosakata_activity.xml.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\layout\\kosakata_activity.xml"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_r1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/r1.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_terimakasih.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\terimakasih.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_ibu.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/ibu.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_o1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\o1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_comunication.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/comunication.jpg"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_cinta.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\cinta.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_terimakasih.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/terimakasih.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_v1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\v1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_tentang.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/tentang.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_lopekata1.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\lopekata1.png"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_adik.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/adik.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_g1.jpg.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\g1.jpg"
     },
     {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_y1.jpg.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/y1.jpg"
-    },
-    {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/layout_splash_screen_activity.xml.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/layout/splash_screen_activity.xml"
-    },
-    {
-        "merged": "com.tencent.yolov8ncnn.app-merged_res-6:/drawable_sama.png.flat",
-        "source": "com.tencent.yolov8ncnn.app-main-8:/drawable/sama.png"
+        "merged": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-merged_res-6:\\drawable_iya.png.flat",
+        "source": "E:\\android skripsi\\New folder\\ncnn-android-yolov8-main\\ncnn-android-yolov8\\daemon\\8.4\\com.tencent.yolov8ncnn.app-main-8:\\drawable\\iya.png"
     }
 ]

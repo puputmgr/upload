@@ -50,7 +50,7 @@ public class MoreInfoActivity extends Activity {
     private void loadModel() {
         boolean ret_init = yolov8ncnn.loadModel(getAssets(), 0, 0);
         if (!ret_init) {
-            Log.e("ImageUploadActivity", "yolov8ncnn loadModel failed");
+            Log.e("MoreInfoActivity", "yolov8ncnn loadModel failed");
         }
     }
 
@@ -80,6 +80,7 @@ public class MoreInfoActivity extends Activity {
         if (selectedBitmap != null) {
             String detectionResults = yolov8ncnn.detect(selectedBitmap);
             if (detectionResults != null) {
+                // Menampilkan hasil deteksi pada TextView
                 tvDetectionResults.setText(detectionResults);
                 Toast.makeText(this, "Detection successful", Toast.LENGTH_SHORT).show();
             } else {

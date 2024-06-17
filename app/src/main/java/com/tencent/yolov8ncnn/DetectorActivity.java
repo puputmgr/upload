@@ -11,7 +11,9 @@ import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class DetectorActivity extends Activity implements SurfaceHolder.Callback {
     public static final int REQUEST_CAMERA = 100;
@@ -23,7 +25,8 @@ public class DetectorActivity extends Activity implements SurfaceHolder.Callback
 
     private SurfaceView cameraView;
     private ImageView buttonBack;
-
+    private Button btnStartCamera;
+    private Button btnStopCamera;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -34,38 +37,52 @@ public class DetectorActivity extends Activity implements SurfaceHolder.Callback
             getActionBar().hide();
         }
 
-
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         cameraView = (SurfaceView) findViewById(R.id.cameraview);
         buttonBack = (ImageView) findViewById(R.id.iv_back_button);
+        btnStartCamera = (Button) findViewById(R.id.btn_start_camera);
+        btnStopCamera = (Button) findViewById(R.id.btn_stop_camera);
 
         cameraView.getHolder().setFormat(PixelFormat.RGBA_8888);
         cameraView.getHolder().addCallback(this);
 
-        buttonBack.setOnClickListener(v -> {
-            finish();
-        });
+        buttonBack.setOnClickListener(v -> finish());
+        btnStartCamera.setOnClickListener(v -> startCamera());
+        btnStopCamera.setOnClickListener(v -> stopCamera());
 
         reload();
     }
 
-
     private void reload() {
         boolean ret_init = yolov8ncnn.loadModel(getAssets(), current_model, current_cpugpu);
         if (!ret_init) {
-            Log.e("MainActivity", "yolov8ncnn loadModel failed");
+            Log.e("DetectorActivity", "yolov8ncnn loadModel failed");
         }
+    }
+
+    private void startCamera() {
+        if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.CAMERA) == PackageManager.PERMISSION_DENIED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, REQUEST_CAMERA);
+        } else {
+            yolov8ncnn.openCamera(facing);
+            Toast.makeText(this, "Camera started", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void stopCamera() {
+        yolov8ncnn.closeCamera();
+        Toast.makeText(this, "Camera stopped", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.CAMERA) == PackageManager.PERMISSION_DENIED)
-        {
-            ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.CAMERA}, REQUEST_CAMERA);
+        if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.CAMERA) == PackageManager.PERMISSION_DENIED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, REQUEST_CAMERA);
+        } else {
+            yolov8ncnn.openCamera(facing);
         }
-        yolov8ncnn.openCamera(facing);
     }
 
     @Override
@@ -80,8 +97,10 @@ public class DetectorActivity extends Activity implements SurfaceHolder.Callback
     }
 
     @Override
-    public void surfaceChanged(SurfaceHolder surfaceHolder, int i, int i1, int i2) {}
+    public void surfaceChanged(SurfaceHolder surfaceHolder, int i, int i1, int i2) {
+    }
 
     @Override
-    public void surfaceDestroyed(SurfaceHolder surfaceHolder) {}
+    public void surfaceDestroyed(SurfaceHolder surfaceHolder) {
+    }
 }
