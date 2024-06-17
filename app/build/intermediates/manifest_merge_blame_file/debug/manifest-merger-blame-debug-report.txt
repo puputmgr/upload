@@ -6,67 +6,75 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml
+8-->E:\bisaisyarat\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="24" />
-9-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml
+9-->E:\bisaisyarat\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:6:5-65
-11-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:6:22-62
+11-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:6:5-65
+11-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:6:22-62
 12
 13    <uses-feature android:name="android.hardware.camera2.full" />
-13-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:7:5-66
-13-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:7:19-63
-14    <uses-feature
-14-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:8:5-10:36
-15        android:name="android.hardware.camera"
-15-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:9:9-47
-16        android:required="false" />
-16-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:10:9-33
+13-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:7:5-66
+13-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:7:19-63
+14
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:8:5-80
+15-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:8:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:9:5-81
+16-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:9:22-78
 17
-18    <application
-18-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:12:5-27:19
-19        android:debuggable="true"
-20        android:extractNativeLibs="false"
-21        android:icon="@drawable/logo"
-21-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:12:51-80
-22        android:label="@string/app_name" >
-22-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:12:18-50
-23        <activity android:name="com.tencent.yolov8ncnn.DetectorActivity" />
-23-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:14:9-54
-23-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:14:19-51
-24        <activity android:name="com.tencent.yolov8ncnn.HomeActivity" />
-24-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:15:9-50
-24-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:15:19-47
-25        <activity android:name="com.tencent.yolov8ncnn.AbjadBisindoActivity" />
-25-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:16:9-58
-25-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:16:19-55
-26        <activity android:name="com.tencent.yolov8ncnn.AboutActivity" />
-26-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:17:9-51
-26-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:17:19-48
-27        <activity android:name="com.tencent.yolov8ncnn.CallingNameActivity" />
-27-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:18:9-57
-27-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:18:19-54
-28        <activity android:name="com.tencent.yolov8ncnn.KosakataActivity" />
-28-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:19:9-54
-28-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:19:19-51
-29        <activity android:name="com.tencent.yolov8ncnn.MoreInfoActivity" />
-29-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:20:9-54
-29-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:20:19-51
-30        <activity android:name="com.tencent.yolov8ncnn.SplashScreenActivity" >
-30-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:21:9-26:20
-30-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:21:19-55
-31            <intent-filter>
-31-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:22:13-25:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:23:17-69
-32-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:23:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:24:17-77
-34-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\src\main\AndroidManifest.xml:24:27-74
-35            </intent-filter>
-36        </activity>
-37    </application>
-38
-39</manifest>
+18    <uses-feature
+18-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:11:5-13:36
+19        android:name="android.hardware.camera"
+19-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:12:9-47
+20        android:required="false" />
+20-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:13:9-33
+21
+22    <application
+22-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:15:5-30:19
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@drawable/logo"
+25-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:15:51-80
+26        android:label="@string/app_name" >
+26-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:15:18-50
+27        <activity android:name="com.tencent.yolov8ncnn.DetectorActivity" />
+27-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:17:9-54
+27-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:17:19-51
+28        <activity android:name="com.tencent.yolov8ncnn.HomeActivity" />
+28-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:18:9-50
+28-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:18:19-47
+29        <activity android:name="com.tencent.yolov8ncnn.AbjadBisindoActivity" />
+29-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:19:9-58
+29-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:19:19-55
+30        <activity android:name="com.tencent.yolov8ncnn.AboutActivity" />
+30-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:20:9-51
+30-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:20:19-48
+31        <activity android:name="com.tencent.yolov8ncnn.CallingNameActivity" />
+31-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:21:9-57
+31-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:21:19-54
+32        <activity android:name="com.tencent.yolov8ncnn.KosakataActivity" />
+32-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:22:9-54
+32-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:22:19-51
+33        <activity android:name="com.tencent.yolov8ncnn.MoreInfoActivity" />
+33-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:23:9-54
+33-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:23:19-51
+34        <activity android:name="com.tencent.yolov8ncnn.SplashScreenActivity" >
+34-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:24:9-29:20
+34-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:24:19-55
+35            <intent-filter>
+35-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:25:13-28:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:26:17-69
+36-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:26:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:27:17-77
+38-->E:\bisaisyarat\app\src\main\AndroidManifest.xml:27:27-74
+39            </intent-filter>
+40        </activity>
+41    </application>
+42
+43</manifest>

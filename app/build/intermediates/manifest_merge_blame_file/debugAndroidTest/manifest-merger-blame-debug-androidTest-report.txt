@@ -3,32 +3,32 @@
 3    package="com.tencent.yolov8ncnn.test" >
 4
 5    <uses-sdk
-5-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17760312021544249087.xml:5:5-74
+5-->E:\bisaisyarat\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12867588400688982151.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17760312021544249087.xml:5:15-41
+6-->E:\bisaisyarat\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12867588400688982151.xml:5:15-41
 7        android:targetSdkVersion="24" />
-7-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17760312021544249087.xml:5:42-71
+7-->E:\bisaisyarat\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12867588400688982151.xml:5:42-71
 8
 9    <instrumentation
-9-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17760312021544249087.xml:11:5-15:72
+9-->E:\bisaisyarat\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12867588400688982151.xml:11:5-15:72
 10        android:name="android.test.InstrumentationTestRunner"
-10-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17760312021544249087.xml:11:22-75
+10-->E:\bisaisyarat\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12867588400688982151.xml:11:22-75
 11        android:functionalTest="false"
-11-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17760312021544249087.xml:14:22-52
+11-->E:\bisaisyarat\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12867588400688982151.xml:14:22-52
 12        android:handleProfiling="false"
-12-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17760312021544249087.xml:13:22-53
+12-->E:\bisaisyarat\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12867588400688982151.xml:13:22-53
 13        android:label="Tests for com.tencent.yolov8ncnn"
-13-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17760312021544249087.xml:15:22-70
+13-->E:\bisaisyarat\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12867588400688982151.xml:15:22-70
 14        android:targetPackage="com.tencent.yolov8ncnn" />
-14-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17760312021544249087.xml:12:22-68
+14-->E:\bisaisyarat\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12867588400688982151.xml:12:22-68
 15
 16    <application
-16-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17760312021544249087.xml:7:5-9:19
+16-->E:\bisaisyarat\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12867588400688982151.xml:7:5-9:19
 17        android:debuggable="true"
 18        android:extractNativeLibs="false" >
 19        <uses-library android:name="android.test.runner" />
-19-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17760312021544249087.xml:8:9-60
-19-->E:\bisa-isyarat-yolov8-main (1)\bisa-isyarat-yolov8-main\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17760312021544249087.xml:8:23-57
+19-->E:\bisaisyarat\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12867588400688982151.xml:8:9-60
+19-->E:\bisaisyarat\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest12867588400688982151.xml:8:23-57
 20    </application>
 21
 22</manifest>

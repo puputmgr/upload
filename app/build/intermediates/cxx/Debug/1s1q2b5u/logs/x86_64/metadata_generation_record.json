@@ -2,7 +2,7 @@
   {
     "level_": 0,
     "message_": "Start JSON generation. Platform version: 24 min SDK version: x86_64",
-    "file_": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\src\\main\\jni\\CMakeLists.txt",
+    "file_": "E:\\bisaisyarat\\app\\src\\main\\jni\\CMakeLists.txt",
     "tag_": "debug|x86_64",
     "diagnosticCode_": 0,
     "memoizedIsInitialized": 1,
@@ -11,12 +11,12 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": 637047017
+    "memoizedHashCode": 2095687059
   },
   {
     "level_": 0,
-    "message_": "JSON \u0027E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\.cxx\\Debug\\1s1q2b5u\\x86_64\\android_gradle_build.json\u0027 was up-to-date",
-    "file_": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\src\\main\\jni\\CMakeLists.txt",
+    "message_": "JSON \u0027E:\\bisaisyarat\\app\\.cxx\\Debug\\1s1q2b5u\\x86_64\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "E:\\bisaisyarat\\app\\src\\main\\jni\\CMakeLists.txt",
     "tag_": "debug|x86_64",
     "diagnosticCode_": 0,
     "memoizedIsInitialized": 1,
@@ -25,12 +25,12 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": 1614077119
+    "memoizedHashCode": 205642079
   },
   {
     "level_": 0,
     "message_": "JSON generation completed without problems",
-    "file_": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\src\\main\\jni\\CMakeLists.txt",
+    "file_": "E:\\bisaisyarat\\app\\src\\main\\jni\\CMakeLists.txt",
     "tag_": "debug|x86_64",
     "diagnosticCode_": 0,
     "memoizedIsInitialized": 1,
@@ -39,6 +39,6 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": 1463963014
+    "memoizedHashCode": -1372364240
   }
 ]

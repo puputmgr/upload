@@ -81,10 +81,11 @@ drawable z1
 id a
 id adik
 id anak
-id angka1
 id ayah
 id b
 id bapak
+id btn_detect_image
+id btn_select_image
 id c
 id cameraview
 id cinta
@@ -105,6 +106,7 @@ id i
 id ibu
 id iloveyou
 id iv_back_button
+id iv_selected_image
 id iya
 id j
 id k
@@ -155,6 +157,7 @@ id textView_ibu
 id textView_nenek
 id tidak
 id tolong
+id tv_detection_results
 id u
 id v
 id w
@@ -178,6 +181,7 @@ string buka_kamera
 string calling_name
 string camera_detection
 string cinta_image
+string detect_image
 string hallo_image
 string image_description_a
 string image_description_adik
@@ -248,10 +252,12 @@ string my_letter_bapak
 string my_letter_ibu
 string my_letter_nenek
 string sama_image
+string select_image
 string tentang_image
 string terimakasih_image
 string tidak_image
 string title_detector
+string title_image_upload
 string tolong_image
 string welcome_home
 string welcome_txt

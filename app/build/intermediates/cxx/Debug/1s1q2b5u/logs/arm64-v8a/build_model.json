@@ -6,9 +6,9 @@
     "deprecated": false,
     "default": true
   },
-  "cxxBuildFolder": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\.cxx\\Debug\\1s1q2b5u\\arm64-v8a",
-  "soFolder": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\build\\intermediates\\cxx\\Debug\\1s1q2b5u\\obj\\arm64-v8a",
-  "soRepublishFolder": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "cxxBuildFolder": "E:\\bisaisyarat\\app\\.cxx\\Debug\\1s1q2b5u\\arm64-v8a",
+  "soFolder": "E:\\bisaisyarat\\app\\build\\intermediates\\cxx\\Debug\\1s1q2b5u\\obj\\arm64-v8a",
+  "soRepublishFolder": "E:\\bisaisyarat\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
   "abiPlatformVersion": 24,
   "cmake": {
     "effectiveConfiguration": {
@@ -32,13 +32,13 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\.cxx",
-      "intermediatesBaseFolder": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\build\\intermediates",
-      "intermediatesFolder": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\build\\intermediates\\cxx",
+      "cxxFolder": "E:\\bisaisyarat\\app\\.cxx",
+      "intermediatesBaseFolder": "E:\\bisaisyarat\\app\\build\\intermediates",
+      "intermediatesFolder": "E:\\bisaisyarat\\app\\build\\intermediates\\cxx",
       "gradleModulePathName": ":app",
-      "moduleRootFolder": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app",
-      "moduleBuildFile": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\build.gradle",
-      "makeFile": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\src\\main\\jni\\CMakeLists.txt",
+      "moduleRootFolder": "E:\\bisaisyarat\\app",
+      "moduleBuildFile": "E:\\bisaisyarat\\app\\build.gradle",
+      "makeFile": "E:\\bisaisyarat\\app\\src\\main\\jni\\CMakeLists.txt",
       "buildSystem": "CMAKE",
       "ndkFolder": "C:\\Users\\puput\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620",
       "ndkVersion": "23.1.7779620",
@@ -122,7 +122,7 @@
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main",
+        "rootBuildGradleFolder": "E:\\bisaisyarat",
         "sdkFolder": "C:\\Users\\puput\\AppData\\Local\\Android\\Sdk",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
@@ -140,12 +140,12 @@
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\.cxx\\Debug\\1s1q2b5u\\prefab\\arm64-v8a",
+  "prefabFolder": "E:\\bisaisyarat\\app\\.cxx\\Debug\\1s1q2b5u\\prefab\\arm64-v8a",
   "isActiveAbi": true,
   "fullConfigurationHash": "1s1q2b5u3z5fx1q354s2e1m3pj506j1i3l703s60531k2g5m6l4j696n6p2f11",
   "fullConfigurationHashKey": "# Values used to calculate the hash in this folder name.\n# Should not depend on the absolute path of the project itself.\n#   - AGP: 7.4.0.\n#   - $NDK is the path to NDK 23.1.7779620.\n#   - $PROJECT is the path to the parent folder of the root Gradle build file.\n#   - $ABI is the ABI to be built with. The specific value doesn\u0027t contribute to the value of the hash.\n#   - $HASH is the hash value computed from this text.\n#   - $CMAKE is the path to CMake 3.10.2.\n#   - $NINJA is the path to Ninja.\n-H$PROJECT/app/src/main/jni\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d24\n-DANDROID_PLATFORM\u003dandroid-24\n-DANDROID_ABI\u003d$ABI\n-DCMAKE_ANDROID_ARCH_ABI\u003d$ABI\n-DANDROID_NDK\u003d$NDK\n-DCMAKE_ANDROID_NDK\u003d$NDK\n-DCMAKE_TOOLCHAIN_FILE\u003d$NDK/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d$NINJA\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_BUILD_TYPE\u003dDebug\n-B$PROJECT/app/.cxx/Debug/$HASH/$ABI\n-GNinja",
   "configurationArguments": [
-    "-HE:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\src\\main\\jni",
+    "-HE:\\bisaisyarat\\app\\src\\main\\jni",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
     "-DCMAKE_SYSTEM_VERSION\u003d24",
@@ -156,11 +156,11 @@
     "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\puput\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620",
     "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\puput\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\build\\cmake\\android.toolchain.cmake",
     "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\puput\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
-    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\build\\intermediates\\cxx\\Debug\\1s1q2b5u\\obj\\arm64-v8a",
-    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\build\\intermediates\\cxx\\Debug\\1s1q2b5u\\obj\\arm64-v8a",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\bisaisyarat\\app\\build\\intermediates\\cxx\\Debug\\1s1q2b5u\\obj\\arm64-v8a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\bisaisyarat\\app\\build\\intermediates\\cxx\\Debug\\1s1q2b5u\\obj\\arm64-v8a",
     "-DCMAKE_BUILD_TYPE\u003dDebug",
-    "-BE:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\.cxx\\Debug\\1s1q2b5u\\arm64-v8a",
+    "-BE:\\bisaisyarat\\app\\.cxx\\Debug\\1s1q2b5u\\arm64-v8a",
     "-GNinja"
   ],
-  "intermediatesParentFolder": "E:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\build\\intermediates\\cxx\\Debug\\1s1q2b5u"
+  "intermediatesParentFolder": "E:\\bisaisyarat\\app\\build\\intermediates\\cxx\\Debug\\1s1q2b5u"
 }

@@ -1,6 +1,6 @@
-#Thu Jun 06 13:11:45 WIB 2024
-base.0=E\:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-base.1=E\:\\bisa-isyarat-yolov8-main (1)\\bisa-isyarat-yolov8-main\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\13\\classes.dex
+#Mon Jun 17 11:59:35 WIB 2024
+base.0=E\:\\bisaisyarat\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.1=E\:\\bisaisyarat\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\13\\classes.dex
 path.0=0/classes.dex
 path.1=13/classes.dex
 renamed.0=classes.dex

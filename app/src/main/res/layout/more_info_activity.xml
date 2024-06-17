@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginStart="20dp"
-            android:layout_toEndOf="@+id/iv_back_button"
+            android:layout_toEndOf="@id/iv_back_button"
             android:text="@string/angka"
             android:textAllCaps="true"
             android:textColor="#ffffff"
@@ -35,7 +35,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -44,15 +43,49 @@
             android:paddingEnd="10dp"
             android:orientation="vertical">
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+            </RelativeLayout>
+
+            <!-- ImageView to display the selected image -->
             <ImageView
-                android:id="@+id/angka1"
+                android:id="@+id/iv_selected_image"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:background="#E0E0E0"/>
+
+            <!-- Button to open image picker -->
+            <Button
+                android:id="@+id/btn_select_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:adjustViewBounds="true"
-                android:contentDescription="@string/angka1_image"
-                android:scaleType="centerCrop"
-                android:src="@drawable/angka1" />
+                android:layout_marginTop="16dp"
+                android:text="@string/select_image"/>
+
+            <!-- Button to perform detection -->
+            <Button
+                android:id="@+id/btn_detect_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/detect_image"/>
+
+            <!-- TextView to display detection results -->
+            <TextView
+                android:id="@+id/tv_detection_results"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text=""
+                android:textSize="16sp"
+                android:textColor="#000000"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
