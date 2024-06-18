@@ -1,2 +1,0 @@
-ninja: Entering directory `E:\bisaisyarat\app\.cxx\Debug\1s1q2b5u\x86'
-ninja: no work to do.

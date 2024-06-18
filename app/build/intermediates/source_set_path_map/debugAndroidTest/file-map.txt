@@ -1,7 +1,0 @@
-com.tencent.yolov8ncnn.test.app-androidTest-0 E:\bisaisyarat\app\build\generated\res\resValues\androidTest\debug
-com.tencent.yolov8ncnn.test.app-androidTest-1 E:\bisaisyarat\app\build\generated\res\rs\androidTest\debug
-com.tencent.yolov8ncnn.test.app-mergeDebugAndroidTestResources-2 E:\bisaisyarat\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.tencent.yolov8ncnn.test.app-mergeDebugAndroidTestResources-3 E:\bisaisyarat\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.tencent.yolov8ncnn.test.app-merged_res-4 E:\bisaisyarat\app\build\intermediates\merged_res\debugAndroidTest
-com.tencent.yolov8ncnn.test.app-androidTest-5 E:\bisaisyarat\app\src\androidTest\res
-com.tencent.yolov8ncnn.test.app-androidTestDebug-6 E:\bisaisyarat\app\src\androidTestDebug\res
