@@ -31,7 +31,8 @@ public class Yolov8Ncnn {
     public native boolean openCamera(int facing);
     public native boolean closeCamera();
     public native boolean setOutputWindow(Surface surface);
-    public native String detect(Bitmap bitmap);
+//    public native String detect(Bitmap bitmap);
+    public native float[] detectFromBitmap(Bitmap bitmap);
 
     /**
      * Method to initialize and load YOLOv8 model.
@@ -51,7 +52,7 @@ public class Yolov8Ncnn {
      * @param bitmap The input Bitmap for object detection.
      * @return String containing the detection results.
      */
-    public String performDetection(Bitmap bitmap) {
-        return detect(bitmap);
-    }
+//    public String performDetection(Bitmap bitmap) {
+//        return detect(bitmap);
+//    }
 }

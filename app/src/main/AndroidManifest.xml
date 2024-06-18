@@ -20,7 +20,7 @@
         <activity android:name=".AboutActivity" />
         <activity android:name=".CallingNameActivity" />
         <activity android:name=".KosakataActivity" />
-        <activity android:name=".MoreInfoActivity" />
+        <activity android:name=".ImageDetectionActivity" />
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

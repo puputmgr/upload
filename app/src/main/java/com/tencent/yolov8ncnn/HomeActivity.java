@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 import androidx.cardview.widget.CardView;
 
@@ -14,7 +13,7 @@ public class HomeActivity extends Activity {
     private CardView cvAbjad;
     private CardView cvCallingName;
     private CardView cvKosakata;
-    private CardView cvMoreInfo;
+    private CardView cvImageDetection;
     private CardView cvAbout;
 
     @Override
@@ -29,7 +28,7 @@ public class HomeActivity extends Activity {
         cvAbjad = (CardView) findViewById(R.id.cv_abjad);
         cvCallingName = (CardView) findViewById(R.id.cv_calling_name);
         cvKosakata = (CardView) findViewById(R.id.cv_kosakata);
-        cvMoreInfo = (CardView) findViewById(R.id.cv_more_info);
+        cvImageDetection = (CardView) findViewById(R.id.cv_image_detection);
         cvAbout = (CardView) findViewById(R.id.cv_about);
 
         cvCameraDetection.setOnClickListener(new View.OnClickListener() {
@@ -64,10 +63,10 @@ public class HomeActivity extends Activity {
             }
         });
 
-        cvMoreInfo.setOnClickListener(new View.OnClickListener() {
+        cvImageDetection.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HomeActivity.this, MoreInfoActivity.class);
+                Intent intent = new Intent(HomeActivity.this, ImageDetectionActivity.class);
                 startActivity(intent);
             }
         });

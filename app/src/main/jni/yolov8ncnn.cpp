@@ -265,4 +265,49 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_yolov8ncnn_Yolov8Ncnn_setOutputWindo
     return JNI_TRUE;
 }
 
+// public native float array detectFromBitmap(Bitmap bitmap)
+JNIEXPORT jfloatArray JNICALL Java_com_tencent_yolov8ncnn_Yolov8Ncnn_detectFromBitmap(JNIEnv* env, jobject thiz, jobject bitmap)
+{
+    AndroidBitmapInfo info;
+    AndroidBitmap_getInfo(env, bitmap, &info);
+
+    void* pixels;
+    AndroidBitmap_lockPixels(env, bitmap, &pixels);
+
+    cv::Mat img(info.height, info.width, CV_8UC4, pixels);
+
+    cv::Mat rgb;
+    cv::cvtColor(img, rgb, cv::COLOR_RGBA2RGB);
+
+    AndroidBitmap_unlockPixels(env, bitmap);
+
+    std::vector<Object> objects;
+
+    {
+        ncnn::MutexLockGuard g(lock);
+        if (g_yolo)
+        {
+            g_yolo->detect(rgb, objects);
+        }
+    }
+
+    jfloatArray result = env->NewFloatArray(objects.size() * 6);
+    if (result == nullptr)
+    {
+        return nullptr; // Out of memory error thrown
+    }
+    std::vector<float> output;
+    for (size_t i = 0; i < objects.size(); i++)
+    {
+        output.push_back(objects[i].label);
+        output.push_back(objects[i].prob);
+        output.push_back(objects[i].rect.x);
+        output.push_back(objects[i].rect.y);
+        output.push_back(objects[i].rect.width);
+        output.push_back(objects[i].rect.height);
+    }
+    env->SetFloatArrayRegion(result, 0, output.size(), output.data());
+
+    return result;
+}
 }
